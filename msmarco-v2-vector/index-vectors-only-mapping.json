@@ -6,7 +6,7 @@
       "store.preload": [ "vec", "vex", "vem"],
       {% endif %}
       "number_of_shards": {{number_of_shards | default(1)}},
-      "number_of_replicas": {{number_of_replicas | default(0)}}
+      "number_of_replicas": {{number_of_replicas | default(0)}},
       {% if aggressive_merge_policy %}
       "merge": {
         "policy": {
