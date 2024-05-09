@@ -12,7 +12,7 @@
         "policy": {
           "max_merged_segment": "25gb",
           "floor_segment": "1gb",
-          "segment_per_tier": 5
+          "segments_per_tier": 5
         }
       }
       {% endif %}
